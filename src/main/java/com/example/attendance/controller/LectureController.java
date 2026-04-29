@@ -10,7 +10,7 @@ import com.example.attendance.service.LectureService;
 
 @RestController
 @RequestMapping("/api/lecture")
-@CrossOrigin(origins = {"https://smart-attendance-system-with-using-qr.netlify.app/","*"})
+@CrossOrigin(origins = {"https://smart-attendance-system-frontend-bjnl-b34u5jj94.vercel.app/","*"})
 public class LectureController {
 
     private final LectureService lectureService;
